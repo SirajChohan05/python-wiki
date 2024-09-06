@@ -1,0 +1,187 @@
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+<style>
+
+
+
+.container{
+    width: auto;
+    max-width: 1200px;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 4px;
+    height: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  column-gap: 6px;
+  background-color: #676a6c;
+  padding: 10px;
+  row-gap: 6px;
+  margin-top: 6px;
+  height: auto;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  box-shadow: 1px 2px 6px rgb(223, 123, 9); 
+  
+}
+
+@media screen and (max-width: 760px){
+   .grid-container{
+    grid-template-columns: 1fr ;
+   }
+
+}
+section{
+    width: auto;
+    max-width: 1200px;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 4px;
+    height: auto;
+    box-shadow: 3px 2px 10px rgb(31, 188, 219);
+
+}
+
+.pic {
+    float: left;
+}
+img{
+ height: 20%;
+ width:auto;
+margin: 0px;
+}
+
+.grid-image {
+    height: 70%;
+    width:85%;
+
+}
+
+
+.grid-img {
+
+    height: 100%;
+    width: 78%;
+}
+
+.grid-img2 {
+  height: 100%;
+  width: auto;
+  
+}
+
+
+.code-comment {
+  height: 76%;
+  width: auto ;
+  
+  
+}
+
+
+
+.pic2{
+  float: left;
+}
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+ <div class="container"  >
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="IDE.html">Libraries</a></li>
+        <li><a href="syntax.html">Python Syntax </a></li>
+        <li><a href="paradigms.html">Programming Paradigms</a></li>
+        <li><a href="quiz.html">Python Quiz</a></li>
+
+        
+      </ul>
+
+ </div> 
+
+ <section>
+    <h1>What are IDE's </h1>
+    <p>
+      A IDE is a software application that helps programmers develop software code efficiently in increases developer productivity by combining capabilities such as software editing building testing packaging in an easy to use application 
+    </p>
+  
+
+    
+
+
+
+    
+    </div>
+
+    <div>
+    <img src="images/Data_science.jpeg" alt="">
+    <img src="images/Python-icon.png" alt="" class="pic2">
+    <a href="https://www.w3schools.com/python/default.asp " target="_blank"><img src="images/w3schools.png" alt="HTML tutorial" height="180" tar></a>
+    </section>
+    
+  
+
+<div class="grid-container">
+  <div class="grid-item"> <h1 class="h123">Visual Studio Code:</h1> <p>Visual studio is a great IDE it is a lightning fast code editor which supports many programming languages it has syntax higlighting lots of key shortcuts </p></div> 
+  <div class="grid-item"><img class="grid-image" src="images/vs.code.png"></div>
+  <div class="grid-item"><h1 class="while">PyCharm: </h1> <p>PyCharm is another great IDE like Visual Studio Code also it supports many different programming languages such as JavaScript Python and many more so it is a great platform to write python code </p></div>  
+  
+  <div class="grid-item"><img class="grid-img" src="images/pycharm.ogo.webp" alt=""></div>
+  <div class="grid-item"><h1 class="variable">IDLE</h1> <p>IDLE is a specific IDE for python it can be used to execute lines of code and create modify and execute python scripts</p></div>
+  <div class="grid-item"><img class="grid-img2" src="images/idle.logo.jpeg" alt=""></div>  
+
+  
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,196 @@
+<html>
+<head>
+   
+<style>
+
+
+
+.container{
+    width: auto;
+    max-width: 1200px;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 4px;
+    height: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  column-gap: 6px;
+  background-color: #676a6c;
+  padding: 10px;
+  row-gap: 6px;
+  margin-top: 6px;
+  height: auto;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  box-shadow: 1px 2px 6px rgb(223, 123, 9); 
+  
+}
+
+@media screen and (max-width: 760px){
+   .grid-container{
+    grid-template-columns: 1fr ;
+   }
+
+}
+section{
+    width: auto;
+    max-width: 1200px;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 4px;
+    height: auto;
+    box-shadow: 3px 2px 10px rgb(31, 188, 219);
+
+}
+
+.pic {
+    float: left;
+}
+img{
+ height: 20%;
+ width:auto;
+margin: 0px;
+}
+
+.grid-image {
+    height: 70%;
+    width:85%;
+
+}
+
+
+.grid-img {
+
+    height: 100%;
+    width: 78%;
+}
+
+.grid-img2 {
+  height: 100%;
+  width: auto;
+  
+}
+
+
+.code-comment {
+  height: 76%;
+  width: auto ;
+  
+  
+}
+
+
+.syntax{
+    font-family: "Luckiest Guy";
+}
+
+
+
+.pic2{
+  float: left;
+}
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+ <div class="container"  >
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="libraries.html">Libraries</a></li>
+        <li><a href="IDE.html">IDE's</a></li>
+        <li><a href="paradigms.html">Programming Paradigms</a></li>
+        <li><a href="quiz.html">Python Quiz</a></li>
+     
+
+        
+      </ul>
+
+ </div> 
+
+ <section>
+    <h1>Programming Errors in python </h1>
+    <p>
+      An error in python that occurs in the program due to an illegal operation performed by the suer or by the fault of a programmer which halts the normal flow of the program 
+    </p>
+
+
+    
+
+
+
+    
+    </div>
+
+    <div>
+    <img src="images/error.png" alt="">
+    <img src="images/Python-icon.png" alt="" class="pic2">
+    <a href="https://www.w3schools.com/python/python_syntax.asp " target="_blank"><img src="images/w3schools.png" alt="HTML tutorial" height="180" tar></a>
+    </section>
+    
+  
+
+<div class="grid-container">
+  <div class="grid-item"> <h1 class="syntax">Syntax Error:</h1> <p>loops in python are very important it is something that is fundamnetal and
+    a loop in python is an instruction that repeats mutliple times as long as
+    some condition is met for example if you have a for loop and you want it
+    to repeat some code 100 times then it will do that and when it does this
+    then the loop will stop and this is an example</p></div> 
+  <div class="grid-item"><img class="grid-image" src="images/syntax-error.jpg"></div>
+  <div class="grid-item"><h1>TypeError: </h1> <p>This error is raised whenever an operation is performed on an incorrect/unsupported object type</p></div>  
+  
+  <div class="grid-item"><img class="grid-img" src="images/typerror.webp" alt=""></div>
+  <div class="grid-item"><h1>NameError</h1> <p>this error is raised when the program attempts to access or use a variable that has not been defined or assigned value
+    if you are using a variable which you have declared previously have used then maybe it has been typed wrong 
+  </p></div>
+  <div class="grid-item"><img class="grid-img2" src="images/nameerrorrr.png" ></div>  
+
+  
+</div>
+
+
+</body>
+</html>
